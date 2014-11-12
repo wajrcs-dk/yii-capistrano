@@ -2,9 +2,7 @@ Yiipistrano
 ==============
 Build automation for yii using Capistrano.
 
-
-## About
-Simple build automation using [Capistrano]'s deployment script for yii php based application.(http://capistranorb.com/)
+Simple build automation using [Capistrano](http://capistranorb.com/)'s deployment script for yii php based application.
 
 
 ## Capistrano
