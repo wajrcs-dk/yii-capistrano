@@ -17,6 +17,12 @@ A remote server automation and deployment tool written in Ruby.
  •	Migrate database changes by default.<br/>
  
 
+## Run
+To deploy use the following commands:<br/>
+<code>cap production deploy user=git-user-name:git-user-password</code><br/>
+<code>cap production deploy user=git-user-name:git-user-password branch=another-master</code>
+
+ 
 ## Setup
  •	Install ruby using [RVM](http://rvm.io/rvm/install).<br/>
  •	Install capistrano gem using command "gem install capistrano".<br/>
