@@ -4,7 +4,7 @@ Build automation for yii using Capistrano.
 
 
 ## About
-Simple build automation using [Capistrano]'s (Ruby Gem) deployment script for yii php based application.(http://capistranorb.com/)
+Simple build automation using [Capistrano]'s deployment script for yii php based application.(http://capistranorb.com/)
 
 
 ## Capistrano
@@ -15,21 +15,21 @@ A remote server automation and deployment tool written in Ruby.
  •	Deploy builds directly from git to your server.<br/>
  •	Define your own git branch to deploy, default is master.<br/>
  •	Parametrized for git username & password for security reasons.<br/>
- •	Ready for any enviroment i.e. Dev, Staging or Producation with their configuration.
- •	Migrate database changes by default.
+ •	Ready for any enviroment i.e. Dev, Staging or Producation with their configuration.<br/>
+ •	Migrate database changes by default.<br/>
  
 
 ## Setup
- •	Install ruby using [RVM](http://rvm.io/rvm/install).
- •	Install capistrano gem using command "gem install capistrano".
- •	Clone this repo or download source.
- •	Modify your yii-capistrano/yii-config/main.php and yii-capistrano/yii-config/console.php files.
- •	Edit your app name in config/config.rb as ":application".
- •	Edit your git repository in config/config.rb file as ":repo_url".
- •	Edit directory where files should be deployed in config/config.rb as ":deploy_to".
- •	Edit your ssh username and server ip address in config/deploy/production.rb as ":app".
- •	Edit your ssh password in config/deploy/production.rb as ":ssh_options".
- •	Optionaly edit staging.rb if you have staging.
+ •	Install ruby using [RVM](http://rvm.io/rvm/install).<br/>
+ •	Install capistrano gem using command "gem install capistrano".<br/>
+ •	Clone this repo or download source.<br/>
+ •	Modify your yii-capistrano/yii-config/main.php and yii-capistrano/yii-config/console.php files.<br/>
+ •	Edit your app name in config/config.rb as ":application".<br/>
+ •	Edit your git repository in config/config.rb file as ":repo_url".<br/>
+ •	Edit directory where files should be deployed in config/config.rb as ":deploy_to".<br/>
+ •	Edit your ssh username and server ip address in config/deploy/production.rb as ":app".<br/>
+ •	Edit your ssh password in config/deploy/production.rb as ":ssh_options".<br/>
+ •	Optionaly edit staging.rb if you have staging.<br/>
  
 
 ## Configuration for Yii
@@ -63,6 +63,6 @@ https://github.com/waqar-alamgir/yii-capistrano/fork
 
 
 ## Credits
-Yiipistrano - build automation for yii using Capistrano by [Waqar Alamgir](http://www.waqaralamgir.tk)<br/>
+Yiipistrano - build automation for yii using Capistrano - by [Waqar Alamgir](http://www.waqaralamgir.tk)<br/>
 [Web](http://www.waqaralamgir.tk)<br/>
 [Twitter](http://www.twitter.com/wajrcs)
