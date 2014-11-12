@@ -26,7 +26,7 @@ namespace :deploy do
 	desc "Copy config file"
 	after :updated, :build do
 		on roles(:all) do |host|
-			%w[ main.php , console.php ].each do |f|
+			%w[ yii-config/main.php , yii-config/console.php ].each do |f|
 				upload! "" + f , "#{release_path}/protected/config/" + f
 			end
 		end
